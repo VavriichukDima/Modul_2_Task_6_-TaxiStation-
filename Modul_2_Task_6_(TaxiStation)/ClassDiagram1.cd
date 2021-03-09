@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Modul_2_Task_6__TaxiStation_.Helpers.ArrayHelper" Collapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Helpers\ArrayHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul_2_Task_6__TaxiStation_.Helpers.CarComparer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Helpers\CarComparer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Modul_2_Task_6__TaxiStation_.Helpers.CarExtention" Collapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\CarExtention.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul_2_Task_6__TaxiStation_.Models.Cars.Lanos" Collapsed="true">
+    <Position X="13.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Cars\Lanos.cs</FileName>
+      <NewMemberFileName>Models\Cars\Audi.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul_2_Task_6__TaxiStation_.Models.Cars.Car" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Cars\Car.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul_2_Task_6__TaxiStation_.Models.Cars.Ferrari" Collapsed="true">
+    <Position X="6.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Cars\Ferrari.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul_2_Task_6__TaxiStation_.Models.Cars.Ford" Collapsed="true">
+    <Position X="8.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Cars\Ford.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul_2_Task_6__TaxiStation_.Models.Cars.Mazda" Collapsed="true">
+    <Position X="11" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Cars\Mazda.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul_2_Task_6__TaxiStation_.Models.Reults.TaxiPark" Collapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Reults\TaxiPark.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul_2_Task_6__TaxiStation_.Models.Transprot" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACIAAAAAAAAAAAAIAABAAAAAQgAAIAAAAAAAAgAA=</HashCode>
+      <FileName>Models\Transprot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul_2_Task_6__TaxiStation_.Models.Truck" Collapsed="true">
+    <Position X="4.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Truck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul_2_Task_6__TaxiStation_.Services.TaxiParkService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\TaxiParkService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul_2_Task_6__TaxiStation_.Program" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Modul_2_Task_6__TaxiStation_.Starter" Collapsed="true">
+    <Position X="17.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Starter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Modul_2_Task_6__TaxiStation_.Services.ITaxiParkService" Collapsed="true">
+    <Position X="15.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Abstraction\ITaxiParkService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Modul_2_Task_6__TaxiStation_.Models.Enums.CarBrand" Collapsed="true">
+    <Position X="15.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAIAAAAAIAAAAAAAAAAAAAAAAAAAogAAEA=</HashCode>
+      <FileName>Models\Enums\CarBrand.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Modul_2_Task_6__TaxiStation_.Models.Enums.Color" Collapsed="true">
+    <Position X="17.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAAAAAAAAAgAAAAAAAAAABAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Models\Enums\Color.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Modul_2_Task_6__TaxiStation_.Models.Enums.Country" Collapsed="true">
+    <Position X="19.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAQAAAQAAAAAAgEA=</HashCode>
+      <FileName>Models\Enums\Country.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Modul_2_Task_6__TaxiStation_.Models.Enums.TypeOfBody" Collapsed="true">
+    <Position X="15.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAABCgAAAACAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Enums\TypeOfBody.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Modul_2_Task_6__TaxiStation_.Models.Enums.TypeOfCar" Collapsed="true">
+    <Position X="17.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Enums\TypeOfCar.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Modul_2_Task_6__TaxiStation_.Models.Enums.TypeOfEngine" Collapsed="true">
+    <Position X="19.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAgAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Enums\TypeOfEngine.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
