@@ -1,7 +1,9 @@
 ﻿using Modul_2_Task_6__TaxiStation_.Models.Reults;
-using Modul_2_Task_6__TaxiStation_.Models.Enums;
+using Modul_2_Task_6__TaxiStation_.Models.Cars.Mazda;
+using Modul_2_Task_6__TaxiStation_.Models.Cars.Audi;
+using Modul_2_Task_6__TaxiStation_.Models.Cars.Ferrari;
+using Modul_2_Task_6__TaxiStation_.Models.Cars.Ford;
 using Modul_2_Task_6__TaxiStation_.Models.Cars;
-using Modul_2_Task_6__TaxiStation_.Models;
 
 namespace Modul_2_Task_6__TaxiStation_.Services
 {
@@ -15,17 +17,18 @@ namespace Modul_2_Task_6__TaxiStation_.Services
         {
             var car = new Car[]
             {
-                new Audi(CarBrand.Audi, "A7", TypeOfEngine.Gas, Color.Green, Country.Germany, TypeOfBody.Sedan, 150, 10),
-                new Ferrari(CarBrand.Ferrari, "F1", TypeOfEngine.Gas, Color.Red, Country.Italy, TypeOfBody.Coupe, 300, 9),
-                new Ford(CarBrand.Ford, "Focus", TypeOfEngine.Diesel, Color.Blue, Country.USA, TypeOfBody.Hatchback, 100, 19),
-                new Mazda(CarBrand.Mazda, "RX7", TypeOfEngine.Gas, Color.White, Country.Japan, TypeOfBody.Universal, 145, 15),
-                new Lanos(CarBrand.Lanos, "Lanos", TypeOfEngine.Electro, Color.Black, Country.Ukraine, TypeOfBody.Sedan, 100500, 1)
+                new CX7(2015),
+                new A7(2016),
+                new Q7(2017),
+                new F8_Tributo(2018),
+                new Mondeo(2019),
+                new Mustang(2020),
             };
 
             var cost = 0.0;
             for (var i = 0; i < car.Length; i++)
             {
-                cost += car[i].Cost;
+                cost += car[i].Price;
             }
 
             return new TaxiPark { Cars = car, Cost = cost };

@@ -26,15 +26,17 @@ namespace Modul_2_Task_6__TaxiStation_
 
             for (var i = 0; i < taxiPark.Cars.Length; i++)
             {
-                Console.WriteLine($"{taxiPark.Cars[i].CarBrand}, {taxiPark.Cars[i].CarModel}, {taxiPark.Cars[i].TypeOfEngine}, {taxiPark.Cars[i].CreatedCountry}, {taxiPark.Cars[i].TypeOfBody}, {taxiPark.Cars[i].Cost}, {taxiPark.Cars[i].FuelConsumed}");
+                Console.WriteLine($"Brand: {taxiPark.Cars[i].Brand}, Model: {taxiPark.Cars[i].Model}, Type of engine: {taxiPark.Cars[i].TypeOfEngine}, Country create: {taxiPark.Cars[i].CreatedCountry}, Type of body: {taxiPark.Cars[i].TypeOfBody}, Price: {taxiPark.Cars[i].Price}, Fuel Consumed: {taxiPark.Cars[i].FuelConsumed}");
             }
 
+            Console.WriteLine("--------------------------");
             Console.WriteLine($"Total cost taxiPark: {taxiPark.Cost}");
 
-            var someCar = taxiPark.FindCar(CarBrand.Audi, 100, 9999);
+            Console.WriteLine("--------------------------");
+            var someCar = taxiPark.FindCar(Brand.Audi, 100, 9999);
             for (var i = 0; i < taxiPark.Cars.Length; i++)
             {
-                Console.WriteLine($"Audi: {taxiPark.Cars[i].CarBrand} {taxiPark.Cars[i].CarModel} cost: {taxiPark.Cars[i].Cost}");
+                Console.WriteLine($"Audi: {taxiPark.Cars[i].Brand} {taxiPark.Cars[i].Model} cost: {taxiPark.Cars[i].Price}");
             }
         }
     }

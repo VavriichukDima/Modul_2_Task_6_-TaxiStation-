@@ -6,13 +6,13 @@ namespace Modul_2_Task_6__TaxiStation_.Helpers
 {
     public static class CarExtention
     {
-        public static Car[] FindCar(this TaxiPark taxiPark, CarBrand carBrand, double minCost, double maxCost)
+        public static Car[] FindCar(this TaxiPark taxiPark, Brand carBrand, double minCost, double maxCost)
         {
             var temp = new Car[taxiPark.Cars.Length];
             for (var i = 0; i < temp.Length; i++)
             {
                 var item = taxiPark.Cars[i];
-                if (item.CarBrand == carBrand && item.Cost > minCost && item.Cost < maxCost)
+                if (item.Brand == carBrand && item.Price > minCost && item.Price < maxCost)
                 {
                     temp[i] = taxiPark.Cars[i];
                 }
